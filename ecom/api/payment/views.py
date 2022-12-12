@@ -34,7 +34,7 @@ def generate_token(id, token):
     if not validate_user_session(id, token):
         return JsonResponse({'error': 'Invalid session. Please re-login !'})
 
-    return JsonResponse({'clientToken': geteway.client_token.generate()})    
+    return JsonResponse({'clientToken': gateway.client_token.generate()})    
 
 
 @csrf_exempt
