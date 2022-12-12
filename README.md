@@ -3,7 +3,7 @@
 
 
 
-## Objective
+## Description
 This project consists of a D-jango based backend designed for an E-Commerce website
 
 
@@ -16,7 +16,7 @@ This project consists of a D-jango based backend designed for an E-Commerce webs
 
 - Place orders and edit order details such as cost,stock,etc. efficiently
 
-- You can add more details in orders by simply editing api\order\views and then serializing it in serializers.Payment
+- You can add more details in orders by simply editing api\order\views and then serializing it in serializers.py
 
 - Custom model created for Payment Gateway using BrainTree
 
@@ -47,4 +47,4 @@ Access admin page from the link
 http://127.0.0.1:8000/admin/
 ```
 
-Your back_end is ready to go
+Your back_end is ready to go !!
